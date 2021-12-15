@@ -28,7 +28,8 @@ body {
 
 #dafacts {
     text-align: center;
-    margin: 50px;
+    
+
 }
 
 footer {
@@ -138,6 +139,16 @@ nav a:hover {
     grid-column: 2/3;
     text-align: center;
        
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    background-color:#083D5E;
+    color: white
 }
 
 #white {
