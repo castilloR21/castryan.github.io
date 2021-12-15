@@ -26,6 +26,11 @@ body {
 
 }
 
+#dafacts {
+    text-align: center;
+    margin: 50px;
+}
+
 footer {
     background-color:#083D5E;
     color:white;
