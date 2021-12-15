@@ -1,3 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo:wght@100&family=Monda&display=swap');
+
+
+body {
+  background-color: white; 
+  font-family:Monda, Arial, sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color:#083D5E;
+  color:white;
+  padding: 25px 50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer a{
+  color:#47B3FF;
+  text-decoration: none;
+
+}
+
+footer a:hover {
+  color:white;
+
+}
+
+header {
+  background-color:#083D5E;
+  display: grid;
+  grid-template-columns: 150px auto;
+  font-size: 27px;
+}
+
+
+.logo {
+  width: 100px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-family: Archivo, Helvetica, sans-serif;
+  padding: 35px;
+}
+
+nav a:hover {
+  background-color: #4D6C80;
+  color: #47B3FF;
+}
+
+
 form {
     /* Center the form on the page */
     margin: 0 auto;
